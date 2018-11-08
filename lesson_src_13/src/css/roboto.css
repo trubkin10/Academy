@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Type Regular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('../fonts/Roboto'), local('../fonts/Roboto-Regular'),
+        url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Type Black';
+    src: url('../fontsRoboto-Black.eot');
+    src: local('../fontsRoboto Black'), local('../fontsRoboto-Black'),
+        url('../fontsRoboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fontsRoboto-Black.woff') format('woff'),
+        url('../fontsRoboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

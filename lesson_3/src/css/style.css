@@ -1,0 +1,100 @@
+body {
+	background-image: url(../img/background7.jpg);
+	font-family: 'Dancing Script', cursive;
+}
+
+.text {
+		position: absolute;
+		font-size: 20px;
+		margin: 250px;
+		line-height: 1,5;
+}
+
+.text h1 {
+	text-align: center;
+}
+.text_img1 {
+	display:block;
+	margin: auto;
+}
+.text p {
+	text-align: justify;
+}
+
+.text_decoration1 {
+font-weight: bolder;
+}
+
+.text_decoration2 {
+text-decoration: underline;
+}
+
+.text_decoration3 {
+text-decoration: line-through;
+}
+
+.text_decoration4 {
+text-decoration: overline;
+}
+
+.text ul {
+	font-size: 17px;
+line-height: 1;
+}
+
+.text_img2 {
+	display: block;
+}
+
+.text_img3 {
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+
+.text_img4 {
+	display: block;
+	float: right;
+}
+
+.text_img5 {
+	display: block;
+	float: right;
+}
+
+#chapter1, #chapter2, #chapter3, #chapter4, #chapter5{
+	text-align: center;
+	color: red;
+}
+
+.text_chapter1 {
+color: blue;
+}
+
+.text_chapter2 {
+color: green;
+}
+
+.text_chapter3 {
+color: yellow;
+}
+
+.text_chapter4 {
+color: white;
+}
+
+.text_chapter5 {
+color: purple;
+}
+
+.menu {
+	display: inline-block;
+	position: fixed;
+	width: 255px;
+	top: 270px;
+	right: 5px;
+}
+
+.name_menu {
+	text-align: center;
+}

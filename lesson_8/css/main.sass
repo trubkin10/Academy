@@ -1,0 +1,102 @@
+$color: #2f2f2f
+$font_1: 'Ubuntu', sans-serif
+$font_2: 'Roboto', sans-serif
+
+body, html
+  background-color: #f6f6f6
+  height: 100%
+  margin: 0
+  padding: 0px
+
+.header
+  display: flex
+  align-items: center
+  justify-content: center
+  max-width: 1170px
+  height: 100%
+  margin: auto
+  background-color: #f6f6f6
+  &_item
+    display: inline-block
+    max-width: 1010px
+    min-height: 503px
+    margin: 86px 95px
+    border: 1px solid #d7d7d7
+    background-color: #ffffff
+  &img_item
+    display: inline-block
+    float: left
+    margin: 64px 0 64px 48px
+    max-width: 376px
+    min-height: 375px
+  &img_info
+    display: inline-block
+    float: left
+    margin: 64px 0 0 30px
+    max-width: 520px
+    max-height: 375px
+  &name_item
+    display: inline-block
+    float: left
+    width: 187px
+    height: 22px
+    color: $color
+    font-family: $font_1
+    font-size: 23px
+    font-weight: bold
+  &item_info
+    p
+    display: inline-block
+    max-width: 441px
+    min-height: 55px
+    margin: 30px auto 0
+    color: $color
+    font-family: 
+    font-size: 15px
+    font-weight: 500
+  &item_price
+    display: inline-block
+    width: 110px
+    height: 75px
+    margin: 55px auto 0
+  h6
+    display: inline-block
+    margin: 0 auto
+    float: left
+    color: $color
+    font-family: $font_1
+    font-size: 15px
+    font-weight: 500
+  span
+    display: inline-block
+    margin: 23px auto 0
+    float: left
+    color: $color
+    font-family: $font_1
+    font-size: 30px
+    font-weight: 500
+
+.btn
+  max-width: 252px
+  min-height: 50px
+  border: 1px solid black
+  color: black
+  font-family: $font_2
+  font-size: 15px
+  font-weight: 400
+  text-align: center
+  margin: 54px 0 0
+  &:hover
+    max-width: 252px
+    min-height: 50px
+    border: 1px solid orange
+    background-color: orange
+    color: white
+    font-family: $font_2
+    font-size: 15px
+    font-weight: 400
+  span
+    display: inline-block
+    margin: 25px auto
+    font-size: 19px
+    font-weight: 400

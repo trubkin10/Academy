@@ -1,0 +1,45 @@
+.row {
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.row img {
+	margin: 15px;
+}
+
+
+.container_title {
+	margin: 70px 80px;
+	display: block;
+	text-align: center;
+}
+
+.icon_wrap {
+	min-height: 50px;
+	text-align: center;
+}
+
+.icon_text {
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1,5;
+}
+
+	.icon_1 {order: 1;}
+	.icon_2 {order: 2;}
+	.icon_3 {order: 3;}
+	.icon_4 {order: 4;}
+	.icon_5 {order: 5;}
+	.icon_6 {order: 6;}
+
+@media screen and (max-width: 576px) {
+	.icon_1 {order: 6;}
+	.icon_2 {order: 2;}
+	.icon_3 {order: 3;}
+	.icon_4 {order: 4;}
+	.icon_5 {order: 5;}
+	.icon_6 {order: 1;}
+	}
